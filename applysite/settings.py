@@ -130,6 +130,7 @@ AUTH_USER_MODEL = 'user.CustomUser'
 STATICFILES_DIR = (
     os.path.join(BASE_DIR, 'static')
 )
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
